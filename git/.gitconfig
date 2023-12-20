@@ -1,0 +1,22 @@
+; [user]
+;         name = falcon
+;         email = 93477932+const-falcon@users.noreply.github.com
+[include]
+        path = ~/dotfiles/git/user
+[alias]
+        ck = checkout
+        st = status
+        br = branch
+        dt = difftool
+[push]
+        default = simple
+[diff]
+        tool = vimdiff
+[difftool]
+        prompt = false
+[merge]
+        tool = vimdiff
+[mergetool]
+        prompt = false
+[commit]
+        template = ~/dotfiles/git/commit_message_template
